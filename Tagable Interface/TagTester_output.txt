@@ -1,0 +1,14 @@
+Enter the product code: java
+Enter Tag: Book
+continue(y/n)?y
+Enter Tag: Computers
+continue(y/n)?y
+Enter Tag: JavaCodes
+continue(y/n)?y
+Enter Tag: Sairam
+continue(y/n)?n
+Code:        java
+Description: Murach's Beginning Java 2
+Price:       Rs.49.50
+Author:      Andrea Steelman
+Tags: Book, Computers, JavaCodes, Sairam
