@@ -1,7 +1,7 @@
 import java.text.NumberFormat;
 
 
-public class Product implements Comparable<Product>, Tagable
+public class Product implements Comparable<Product>, Tagable //Implementing Comparable and Tagable
 {
     private String code;
     private String description;
@@ -22,7 +22,7 @@ public class Product implements Comparable<Product>, Tagable
     this.description = description;
     this.price = price;
     }
-    
+    //setTag from Tagable
     public void setTag(String s){
     if (tag == null){
     tag = s;
@@ -31,14 +31,14 @@ public class Product implements Comparable<Product>, Tagable
     tag = tag+", "+s;
     }
     }
-    
+    //getTag from Tagable
     public String getTag(){
     if(tag == null){
     return "no tag\n";
     }
     return tag;
     }
-    
+    //comapreTo from Comaparable
    public int compareTo(Product p){
     return (this.code).compareTo(p.code);
     }
