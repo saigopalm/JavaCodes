@@ -1,0 +1,45 @@
+
+C:\SSSIHL\javasource\main>javac -cp C:\SSSIHL\javasource ProductAppArrayTag.java
+
+
+C:\SSSIHL\javasource\main>java -cp C:\SSSIHL\javasource main.ProductAppArrayTag
+Enter the product code: java
+Enter tag(- to exit):
+-
+continue(y/n)?y 
+Enter the product code: jsps
+Enter tag(- to exit):
+-
+continue(y/n)?n
+=================
+Order in which they were entered
+Code:        java
+Description: Murach's Beginning Java 2
+Price:       ?49.50
+Tags:        no tag
+Author:      Andrea Steelman
+
+Code:        jsps
+Description: Murach's Java Servlets and JSP
+Price:       ?49.50
+Tags:        no tag
+Author:      Andrea Steelman
+
+Count: 2
+=====================
+
+Printing sorted array:
+Code:        java
+Description: Murach's Beginning Java 2
+Price:       ?49.50
+Tags:        no tag
+Author:      Andrea Steelman
+
+Code:        jsps
+Description: Murach's Java Servlets and JSP
+Price:       ?49.50
+Tags:        no tag
+Author:      Andrea Steelman
+
+
+C:\SSSIHL\javasource\main>
