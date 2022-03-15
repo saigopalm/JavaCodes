@@ -9,4 +9,4 @@ PURPOSE OF PROJECT:
 VERSION or DATE: 15-03-2022
 HOW TO START THIS PROJECT:
 AUTHORS:
-USER INSTRUCTIONS: Tried to handle almost all the exceptions in searcher and sorter. Let me knoe if i missed any. Please leave your comments.
+USER INSTRUCTIONS: Tried to handle almost all the exceptions in searcher and sorter. Let me know if i missed any. Please leave your comments.
