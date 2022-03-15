@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=TestSorter
-dependency1.to=ArraySorter
+dependency1.from=TestSearcher
+dependency1.to=ArraySearcher
 dependency1.type=UsesDependency
-dependency2.from=TestSearcher
-dependency2.to=ArraySearcher
+dependency2.from=TestSorter
+dependency2.to=ArraySorter
 dependency2.type=UsesDependency
 package.editor.height=600
 package.editor.width=1248

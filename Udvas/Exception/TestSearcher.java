@@ -1,13 +1,14 @@
 class TestSearcher{
 public static void main(String args[]){
 ArraySearcher array = null;
+//need to pass the arguments in main
 try{
 try{
 if(args.length != 2){
 throw new IllegalArgumentException();
 }
 }catch(IllegalArgumentException e){
-System.out.println("Required to pass exactly one number as argument\n (Taking the first argument passed if available for bound and the second for key to search)");
+System.out.println("Required to pass exactly two numbers as argument\n (Taking the first argument passed if available for bound and the second for key to search)");
 }
 
 int bound = Integer.parseInt(args[0]);
@@ -20,7 +21,7 @@ array.getSorted();
 System.out.println("After sorting first 10 elements\n"+array);
 
 int key = Integer.parseInt(args[1]);
-int pos = array.Search(key);
+int pos = array.Search(key);//searching for key
 System.out.println("Completely sorted array: \n"+array);
 if(pos>=0)
 System.out.println("Key: "+key+" found at position: "+pos);
@@ -43,7 +44,7 @@ System.out.println("Exception Caught: "+e.getMessage());
 
 finally{
 System.out.println("Array disposed in finally");
-array = null;
+array = null;//clearing array
 System.gc();
 }
 }//main closes
