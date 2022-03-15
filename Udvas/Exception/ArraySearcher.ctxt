@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ArraySearcher()
+comment1.params=max
+comment1.target=ArraySearcher(int)
+comment2.target=String\ toString()
+comment3.target=void\ getSorted()
+comment4.params=a
+comment4.target=int\ Search(int)
+numComments=5
