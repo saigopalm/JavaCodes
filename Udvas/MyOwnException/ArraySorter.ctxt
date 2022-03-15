@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ArraySorter()
+comment1.params=max
+comment1.target=ArraySorter(int)
+comment2.target=String\ toString()
+comment3.target=void\ getSorted()
+numComments=4
