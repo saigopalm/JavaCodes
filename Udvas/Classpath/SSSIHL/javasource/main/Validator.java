@@ -10,10 +10,14 @@ public class Validator
    
 	public static String getString(String prompt)
     {
-		Scanner sc = new Scanner(System.in);
+		
         System.out.print(prompt);
-        String s = sc.next();  // read user entry
-        sc.nextLine();  // discard any other data entered on the line
+        return getString();
+        
+    }
+    public static String getString(){
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();  // discard any other data entered on the line
         return s;
     }
      /** This method prompts the user to key-in any integer as input

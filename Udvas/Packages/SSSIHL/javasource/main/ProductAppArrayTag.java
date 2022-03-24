@@ -16,7 +16,7 @@ int i = 0;
 int j;
 String tag;
 Product productArray[] = new Product[10];
-Scanner sc = new Scanner(System.in);
+
 do
 {//do while loop to keep taking input until done
 
@@ -42,7 +42,7 @@ tag = "";
 while(!tag.equals("-")){
 if(tag!="")
 p.setTag(tag);
-tag = sc.nextLine();
+tag = Validator.getString();
 }
 
 do{
