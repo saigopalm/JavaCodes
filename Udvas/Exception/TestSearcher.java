@@ -2,25 +2,34 @@ class TestSearcher{
 public static void main(String args[]){
 ArraySearcher array = null;
 //need to pass the arguments in main
+int bound = 0;
+int key = 0;
 try{
 try{
 if(args.length != 2){
+
 throw new IllegalArgumentException();
+
 }
 }catch(IllegalArgumentException e){
-System.out.println("Required to pass exactly two numbers as argument\n (Taking the first argument passed if available for bound and the second for key to search)");
+System.out.println("Required to pass altleat one number as argument(max: 2)\n (Taking the first argument passed if available for key to search and the second for bound)");
+
 }
 
-int bound = Integer.parseInt(args[0]);
+if(args.length != 1){
+bound = Integer.parseInt(args[1]);
 array = new ArraySearcher(bound);
-
+}
+else{
+array = new ArraySearcher();
+}
 
 
 System.out.println("Before sorting: \n"+array);
 array.getSorted();
 System.out.println("After sorting first 10 elements\n"+array);
 
-int key = Integer.parseInt(args[1]);
+key = Integer.parseInt(args[0]);
 int pos = array.Search(key);//searching for key
 System.out.println("Completely sorted array: \n"+array);
 if(pos>=0)
