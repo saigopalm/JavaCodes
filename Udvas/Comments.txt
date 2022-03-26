@@ -1,6 +1,7 @@
-Double.parseDouble()<- NullPointerException, NumberFormatException
+Double.parseDouble()<- NullPointerException(did not handle this), NumberFormatException
 stack.pop()<- NoSuchElementException
 AithmeticException in case of zero division
+Math.pow throws no exceptions.. but im considering 0 raised to neative power an Arithmetic exception..
 stack.push()
 
 havent separated into packages yet...

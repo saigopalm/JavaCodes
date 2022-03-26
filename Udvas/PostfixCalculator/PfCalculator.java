@@ -12,6 +12,7 @@ d2 = 0;
 d3 = 0;
 if(queue.isEmpty()){
 System.out.println("Empty queue");
+return 0;
 }
 for(String queueElement: queue){
 try{
@@ -32,6 +33,8 @@ stack.push(d3/d2);}
 else if( queueElement.equals("*")){
 stack.push(d2*d3);}
 else if( queueElement.equals("^")){
+if(d3 == 0 && d2 < 0)
+throw new ArithmeticException("Division by 0 attempted!");
 stack.push(Math.pow(d3,d2));}
 else if( queueElement.equals("%")){
 stack.push(d3%d2);}
