@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=prompt
+comment0.target=String\ getString(String)
+comment0.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ string\ as\ input\n\n
+comment1.params=prompt
+comment1.target=LinkedList<String>\ getStringTokens(String)
+comment1.text=This\ method\ prompts\ the\ user\ to\ key\ in\ any\ string\ as\ input\ and\ returns\ the\ list\ of\ tokens\ in\ it\n\n\n
+comment2.params=prompt
+comment2.target=int\ getInt(String)
+comment2.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ integer\ as\ input\n\n
+comment3.params=prompt\ min\ max
+comment3.target=int\ getInt(String,\ int,\ int)
+comment3.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ integer\ between\ the\ provided\ range\ as\ input\n\n
+comment4.params=prompt
+comment4.target=double\ getDouble(String)
+comment4.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ double\ as\ input\n\n
+numComments=5

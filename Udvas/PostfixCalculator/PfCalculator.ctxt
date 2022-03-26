@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=PfCalculator()
+comment1.params=queue
+comment1.target=double\ evaluate(LinkedList<String>)
+numComments=2
