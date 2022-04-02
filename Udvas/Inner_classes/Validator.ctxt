@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=prompt
+comment0.target=String\ getString(String)
+comment0.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ string\ as\ input\n\n
+comment1.params=prompt
+comment1.target=int\ getInt(String)
+comment1.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ integer\ as\ input\n\n
+comment2.params=prompt\ min\ max
+comment2.target=int\ getInt(String,\ int,\ int)
+comment2.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ integer\ between\ the\ provided\ range\ as\ input\n\n
+comment3.params=prompt
+comment3.target=double\ getDouble(String)
+comment3.text=This\ method\ prompts\ the\ user\ to\ key-in\ any\ double\ as\ input\n\n
+numComments=4
