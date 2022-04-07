@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Product()
+comment1.params=code\ description\ price
+comment1.target=Product(String,\ String,\ double)
+comment10.target=int\ getCount()
+comment11.target=Comparator<Product>\ getPriceComparator()
+comment12.target=Comparator<Product>\ getCodeComparator()
+comment13.target=Comparator<Product>\ getPriceComparatorDescending()
+comment2.params=code
+comment2.target=void\ setCode(String)
+comment3.target=String\ getCode()
+comment4.params=description
+comment4.target=void\ setDescription(String)
+comment5.target=String\ getDescription()
+comment6.params=price
+comment6.target=void\ setPrice(double)
+comment7.target=double\ getPrice()
+comment8.target=String\ getFormattedPrice()
+comment9.target=String\ toString()
+numComments=14

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Book()
+comment1.params=code\ description\ price\ author
+comment1.target=Book(String,\ String,\ double,\ String)
+comment2.params=author
+comment2.target=void\ setAuthor(String)
+comment3.target=String\ getAuthor()
+comment4.target=String\ toString()
+numComments=5

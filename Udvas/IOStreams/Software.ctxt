@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Software()
+comment1.params=code\ description\ price\ version
+comment1.target=Software(String,\ String,\ double,\ String)
+comment2.params=version
+comment2.target=void\ setVersion(String)
+comment3.target=String\ getVersion()
+comment4.target=String\ toString()
+numComments=5

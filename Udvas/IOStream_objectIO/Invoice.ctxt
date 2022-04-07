@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=num\ list
+comment0.target=Invoice(String,\ LinkedList<ProductOrder>)
+comment1.target=String\ toString()
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=code\ q
+comment0.target=ProductOrder(String,\ int)
+comment1.params=p2
+comment1.target=int\ compareTo(ProductOrder)
+comment2.target=String\ toString()
+numComments=3
