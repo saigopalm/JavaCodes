@@ -1,0 +1,42 @@
+Enter the product code: jsps
+continue(y/n)?y
+Enter the product code: txtpd
+continue(y/n)?y
+Enter the product code: java
+continue(y/n)?y
+Enter the product code: wrdpd
+continue(y/n)?n
+Code:        jsps
+Description: Murach's Java Servlets and JSP
+Price:       Rs.49.50
+Author:      Andrea Steelman
+Code:        txtpd
+Description: TextPad
+Price:       Rs.27.00
+Version:     4.7.3
+Code:        java
+Description: Murach's Beginning Java 2
+Price:       Rs.49.50
+Author:      Andrea Steelman
+Code:        wrdpd
+Description: WordPad
+Price:       Rs.37.00
+Version:     6.3.3
+Count: 4
+Printing sorted array: 
+Code:        java
+Description: Murach's Beginning Java 2
+Price:       Rs.49.50
+Author:      Andrea Steelman
+Code:        jsps
+Description: Murach's Java Servlets and JSP
+Price:       Rs.49.50
+Author:      Andrea Steelman
+Code:        txtpd
+Description: TextPad
+Price:       Rs.27.00
+Version:     4.7.3
+Code:        wrdpd
+Description: WordPad
+Price:       Rs.37.00
+Version:     6.3.3

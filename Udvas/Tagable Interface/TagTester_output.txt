@@ -1,0 +1,14 @@
+Enter the product code: jsps
+Enter tag: Core Java
+continue(y/n)?y
+Enter tag: Book
+continue(y/n)?y
+Enter tag: Masters Level
+continue(y/n)?y
+Enter tag: Aum Shri Sai Ram
+continue(y/n)?n
+Code:        jsps
+Description: Murach's Java Servlets and JSP
+Price:       Rs.49.50
+Author:      Andrea Steelman
+Tags: Core Java, Book, Masters Level, Aum Shri Sai Ram
